@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <div class="form-search">
+                <input id="search-city" list="city" type="search" class="form-input" name="form-select"
+                    placeholder="search">
+                <button class="btn"><img class="img" src="/icon/751463.png" alt=""></button>
+                <datalist id="city">
+                    <option value="Kyiv">Киев, Украина</option>
+                    <option value="Dnepr">Днепр, Украина</option>
+                    <option value="Zaporozhye">Запорожье, Украина</option>
+                    <option value="Kharkiv">Харьков, Украина</option>
+                    <option value="Crimea">Крым, Украина</option>
+                </datalist>
+            </div>
+
+            <div class="header">
+                <div id="temperature" class="temperature-now"></div>
+                <div>
+                    <div id="region" class="region"></div>
+                    <div id="description" class="description-now"></div>
+                </div>
+                <div id="icon" class="icon-main"></div>
+            </div>
+            <div class="widget">
+                <div id="day-1" class="widget-day">
+                    <div class="day"></div>
+                    <div class="icon"></div>
+                    <div class="description"></div>
+                    <div class="temperature">
+                        <div class="temp-max"></div>
+                        <div class="temp-min"></div>
+                    </div>
+                </div>
+                <div id="day-2" class="widget-day">
+                    <div class="day"></div>
+                    <div class="icon"></div>
+                    <div class="description"></div>
+                    <div class="temperature">
+                        <div class="temp-max"></div>
+                        <div class="temp-min"></div>
+                    </div>
+                </div>
+                <div id="day-3" class="widget-day">
+                    <div class="day"></div>
+                    <div class="icon"></div>
+                    <div class="description"></div>
+                    <div class="temperature">
+                        <div class="temp-max"></div>
+                        <div class="temp-min"></div>
+                    </div>
+                </div>
+                <div id="day-4" class="widget-day">
+                    <div class="day"></div>
+                    <div class="icon"></div>
+                    <div class="description"></div>
+                    <div class="temperature">
+                        <div class="temp-max"></div>
+                        <div class="temp-min"></div>
+                    </div>
+                </div>
+                <div id="day-5" class="widget-day">
+                    <div class="day"></div>
+                    <div class="icon"></div>
+                    <div class="description"></div>
+                    <div class="temperature">
+                        <div class="temp-max"></div>
+                        <div class="temp-min"></div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+
+</body>
+<script src="js/app.js"></script>
+
+</html>
